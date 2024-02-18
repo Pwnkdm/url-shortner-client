@@ -25,12 +25,11 @@ const { Text } = Typography;
                 <h3 style={{color:"black"}}>Copy And use/share</h3>
                 {urlData?.map((el,ind)=>(
                     <div style={{maxWidth:"200px",margin:"auto",marginTop:"10px",textAlign:"center",background:"#ffff",padding:"10px",borderRadius:"5px"}}>
-                    <Text  copyable={{text:`https://nanoid.cyclic.app/url/${el?.id}`}}>
-                        {el?.id}
-                    </Text>
+                        <Text copyable={{text:`https://nanoid.cyclic.app/url/${el?.id}`}}>
+                            https://nanoid.cyclic.app/url/{el?.id}
+                        </Text>
                     </div>
-                ))
-                }
+                ))}
                 </>
             )}
         </div>
