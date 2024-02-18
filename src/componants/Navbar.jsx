@@ -32,9 +32,6 @@ const Navbar = () => {
         <Menu.Item key="2">
           <Link to='/logs'>Logs</Link>
         </Menu.Item>
-        {/* <Menu.Item key="4">
-          <Link to='/contact'>Contact</Link>
-        </Menu.Item> */}
       </Menu>
     </Header>
   );
