@@ -1,0 +1,10 @@
+.gridBox{
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 75vh;
+    max-width: 60svw;
+    margin: auto;
+    /* display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4,1fr); */
+}
