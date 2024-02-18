@@ -48,7 +48,10 @@ const Logs = () => {
   return (
     <div>
         {urlDataLoading ?
-        <Spin/>:
+        <div style={{height:"75vh",alignItems:"center",display:"flex",justifyContent:"center"}}>
+          <Spin size='large'/>
+        </div>
+          :
         <div style={{height:"75vh"}}>
         <Table
         columns={columns}

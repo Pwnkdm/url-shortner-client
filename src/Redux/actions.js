@@ -24,7 +24,7 @@ import { message } from "antd";
 };
 
 export const geturlData =()=>(dispatch)=>{
-    dispatch(geturlDataLoading);
+    dispatch(geturlDataLoading());
     return geturlDataRequest()
     .then((res)=>{
         dispatch(geturlDataSuccess(res.data))
