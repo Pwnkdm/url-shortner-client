@@ -56,10 +56,10 @@ const ShortUrl = () => {
               >
                 <Text
                   copyable={{
-                    text: `https://url-shortner-04u5.onrender.com/${el?.id}`,
+                    text: `https://url-shortner-04u5.onrender.com/url/${el?.id}`,
                   }}
                 >
-                  https://url-shortner-04u5.onrender.com/{el?.id}
+                  https://url-shortner-04u5.onrender.com/url/{el?.id}
                 </Text>
               </div>
             ))}
