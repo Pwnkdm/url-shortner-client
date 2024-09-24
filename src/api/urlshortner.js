@@ -19,7 +19,7 @@ export const posturlDataRequest = (payload) => {
 };
 
 export const getAnalyticsRequest = () => {
-  return axios.get(`${apiURL}/:shortId`, {
+  return axios.get(`${apiURL}/url/:shortId`, {
     headers: {
       accept: "application/json",
     },
